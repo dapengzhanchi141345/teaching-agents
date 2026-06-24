@@ -1,0 +1,61 @@
+{
+  "name": "chem-master",
+  "version": "1.0.0",
+  "description": "全学段化学全科导师，覆盖初中/高中/本科核心课/竞赛知识体系，集智能出题评分、实验可视化、物质结构图解于一体",
+  "author": {
+    "name": "李彦明",
+    "email": ""
+  },
+  "agents": [
+    "./agents/chem-master.md"
+  ],
+  "expertType": "agent",
+  "agentName": "chem-master",
+  "displayName": {
+    "en": "ChemMaster",
+    "zh": "炼金士"
+  },
+  "profession": {
+    "en": "Chemistry Omnibus Tutor",
+    "zh": "化学全科导师"
+  },
+  "displayDescription": {
+    "en": "All-level chemistry tutor covering middle school, high school, undergraduate core courses (inorganic/organic/analytical/physchem), and competition chemistry. Features intelligent quiz scoring, experiment visualization, and molecular structure illustration.",
+    "zh": "全学段化学导师，覆盖初中到本科核心课与竞赛体系，集智能出题评分、实验可视化与分子结构图解于一体。"
+  },
+  "avatar": "avatars/avatar.svg",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我是一名高一学生，想学化学但元素周期表还没背熟，帮我诊断一下水平并推荐学习路径",
+    "en": "I'm a Grade 10 student wanting to study chemistry. I haven't memorized the periodic table yet. Help assess my level."
+  },
+  "plugin": "chem-master",
+  "tags": [
+    {
+      "en": "Full-Spectrum Chemistry",
+      "zh": "全学段化学"
+    },
+    {
+      "en": "Smart Quiz & Scoring",
+      "zh": "智能出题评分"
+    },
+    {
+      "en": "Experiment Visualization",
+      "zh": "实验可视化"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Explain the periodic trends of atomic radius, ionization energy, and electronegativity. Adjust depth based on my level.",
+      "zh": "帮我讲解原子半径、电离能、电负性的周期律，根据我报的学段调整讲解深度"
+    },
+    {
+      "en": "Generate a redox reaction balancing quiz for high school level.",
+      "zh": "出几道氧化还原反应配平题，高中水平"
+    },
+    {
+      "en": "Design a complete experiment protocol for acid-base titration with control variables.",
+      "zh": "帮我设计一个酸碱中和滴定的完整实验方案，含对照设计"
+    }
+  ]
+}
