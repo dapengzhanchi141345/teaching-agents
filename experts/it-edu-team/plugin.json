@@ -1,0 +1,174 @@
+{
+  "name": "it-edu-team",
+  "version": "5.0.0",
+  "description": "V5.0 full-stack K-PhD IT education team — 7 agents: curriculum/programming/exam/config/design/STEM/color, K-PhD knowledge base, intelligent routing, quality gates, unified backup",
+  "author": {
+    "name": "李彦明",
+    "email": ""
+  },
+  "agents": [
+    "./agents/it-edu-team-team-lead.md",
+    "./agents/ke-code-ta.md",
+    "./agents/shen-exam-designer.md",
+    "./agents/pei-env-engineer.md",
+    "./agents/design-master.md",
+    "./agents/stem-integrator.md",
+    "./agents/color-design-master.md"
+  ],
+  "skills": [
+    "./skills/it-edu-tools"
+  ],
+  "expertType": "team",
+  "agentName": "it-edu-team-team-lead",
+  "teamInfo": {
+    "leadAgent": "it-edu-team-team-lead",
+    "memberAgents": [
+      "ke-code-ta",
+      "shen-exam-designer",
+      "pei-env-engineer",
+      "design-master",
+      "stem-integrator",
+      "color-design-master"
+    ]
+  },
+  "displayName": {
+    "en": "IT Education Team V5",
+    "zh": "信息科技教学团 V5"
+  },
+  "profession": {
+    "en": "IT Education Team V5",
+    "zh": "信息科技教学团 V5"
+  },
+  "displayDescription": {
+    "en": "V5.0 full-stack K-PhD IT education team — 7 agents (curriculum/programming/exam/design/STEM/config/color), K-PhD knowledge base, competition-ready color system, intelligent routing, quality gates.",
+    "zh": "V5.0 全学段信息科技教学团队（课程/编程/出题/设计/STEM/配置/配色），含跨学科融合、PBL项目式学习、竞赛级配色与2026科技教育前沿"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "我需要一堂七年级《互联网应用与创新》的优质课教案，配套课件和试题",
+    "en": "I need a high-quality lesson plan for 7th grade 'Internet Applications and Innovation', with courseware and exam"
+  },
+  "plugin": "it-edu-team",
+  "tags": [
+    {
+      "en": "Curriculum Design",
+      "zh": "课程设计"
+    },
+    {
+      "en": "Python Programming",
+      "zh": "Python编程教学"
+    },
+    {
+      "en": "STEM Integration",
+      "zh": "跨学科STEM"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I need a high-quality lesson plan for 7th grade 'Internet Applications and Innovation', with project-based learning design, courseware and exam",
+      "zh": "我需要一堂七年级《互联网应用与创新》的优质课教案，配套课件和试题"
+    },
+    {
+      "en": "Design an IoT interdisciplinary project combining sensor data collection and data analysis, full package",
+      "zh": "设计一个物联网跨学科项目，融合传感器数据采集与分析，全套教学包"
+    },
+    {
+      "en": "Help me design a smart campus STEM project for 8th graders, including courseware and evaluation rubric",
+      "zh": "帮我设计一个八年级智慧校园STEM项目，含课件和评价量规"
+    }
+  ],
+  "members": [
+    {
+      "id": "it-edu-team-team-lead",
+      "displayName": {
+        "en": "Cheng Daosi V4",
+        "zh": "程导思"
+      },
+      "profession": {
+        "en": "Head Teacher — Intelligent Orchestrator",
+        "zh": "教学总导师 — 智能调度"
+      },
+      "avatar": "avatars/it-edu-team-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "ke-code-ta",
+      "displayName": {
+        "en": "Ke Zhima V4",
+        "zh": "柯智码"
+      },
+      "profession": {
+        "en": "Programming TA — Multi-Language",
+        "zh": "编程助教 — 多语言"
+      },
+      "avatar": "avatars/ke-code-ta.png",
+      "role": "member"
+    },
+    {
+      "id": "shen-exam-designer",
+      "displayName": {
+        "en": "Shen Kaoheng V4",
+        "zh": "申考衡"
+      },
+      "profession": {
+        "en": "Exam Designer — AI-Powered",
+        "zh": "出题测评官 — AI智慧"
+      },
+      "avatar": "avatars/shen-exam-designer.png",
+      "role": "member"
+    },
+    {
+      "id": "pei-env-engineer",
+      "displayName": {
+        "en": "Pei Jingshi V4",
+        "zh": "配境师"
+      },
+      "profession": {
+        "en": "Teaching System Config Engineer — Full-Stack Automation",
+        "zh": "全栈系统配置师 — 全自动化"
+      },
+      "avatar": "avatars/pei-env-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "design-master",
+      "displayName": {
+        "en": "Chen Sheji",
+        "zh": "陈设计"
+      },
+      "profession": {
+        "en": "Digital Teaching Designer",
+        "zh": "数字化教学设计师"
+      },
+      "avatar": "avatars/design-master.png",
+      "role": "member"
+    },
+    {
+      "id": "stem-integrator",
+      "displayName": {
+        "en": "Rong Guantong",
+        "zh": "融贯通"
+      },
+      "profession": {
+        "en": "STEM Integration Specialist",
+        "zh": "跨学科融合师"
+      },
+      "avatar": "avatars/stem-integrator.png",
+      "role": "member"
+    },
+    {
+      "id": "color-design-master",
+      "displayName": {
+        "en": "Cheng Peiling",
+        "zh": "程配灵"
+      },
+      "profession": {
+        "en": "Color Design & Visual System Expert",
+        "zh": "配色设计与视觉系统专家"
+      },
+      "avatar": "avatars/color-design-master.png",
+      "role": "member"
+    }
+  ]
+}
