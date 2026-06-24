@@ -1,0 +1,186 @@
+{
+  "name": "math-all-domain",
+  "version": "1.0.0",
+  "description": "Comprehensive mathematics expert team covering all levels from primary to PhD, classical Chinese math, and international curricula",
+  "author": {
+    "name": "李彦明",
+    "email": ""
+  },
+  "agents": [
+    "./agents/math-all-domain-team-lead.md",
+    "./agents/primary-math.md",
+    "./agents/junior-math.md",
+    "./agents/senior-math.md",
+    "./agents/undergrad-math.md",
+    "./agents/graduate-math.md",
+    "./agents/classical-math.md",
+    "./agents/international-math.md"
+  ],
+  "expertType": "team",
+  "agentName": "math-all-domain-team-lead",
+  "teamInfo": {
+    "leadAgent": "math-all-domain-team-lead",
+    "memberAgents": [
+      "primary-math",
+      "junior-math",
+      "senior-math",
+      "undergrad-math",
+      "graduate-math",
+      "classical-math",
+      "international-math"
+    ]
+  },
+  "displayName": {
+    "en": "Math All-Domain Expert Team",
+    "zh": "数学全领域专家团"
+  },
+  "profession": {
+    "en": "Math All-Domain Expert Team",
+    "zh": "数学全领域专家团"
+  },
+  "displayDescription": {
+    "en": "A comprehensive mathematics expert team covering K-12, undergraduate, graduate, classical Chinese mathematics, and international curricula with interactive problem-solving",
+    "zh": "覆盖小学至博士全学段、中国古典数学及国际数学的全能专家团，提供知识讲解、解题辅导、自适应出题与交互式数学实验，含分步解题协议与跨学科连接"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "请帮我解答一个数学问题，或讲解某个数学概念。",
+    "en": "Please help me solve a math problem or explain a math concept."
+  },
+  "plugin": "math-all-domain",
+  "tags": [
+    {
+      "en": "Mathematics Education",
+      "zh": "数学教育"
+    },
+    {
+      "en": "All-Level Curriculum",
+      "zh": "全学段课程"
+    },
+    {
+      "en": "Math Problem Solving",
+      "zh": "数学解题"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Please help me solve a math problem or explain a math concept.",
+      "zh": "请帮我解答一个数学问题，或讲解某个数学概念。"
+    },
+    {
+      "en": "Explain the Pythagorean theorem and its proof",
+      "zh": "讲解勾股定理及其证明方法"
+    },
+    {
+      "en": "What are the key differences between Chinese and international high school math curricula?",
+      "zh": "中国高中数学与国外高中数学的主要区别是什么？"
+    }
+  ],
+  "members": [
+    {
+      "id": "math-all-domain-team-lead",
+      "displayName": {
+        "en": "Cheng Shu Tong",
+        "zh": "程数统"
+      },
+      "profession": {
+        "en": "Math Master Scheduler",
+        "zh": "数学精算师"
+      },
+      "avatar": "avatars/math-all-domain-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "primary-math",
+      "displayName": {
+        "en": "Cheng Xiao Suan",
+        "zh": "程小算"
+      },
+      "profession": {
+        "en": "Primary Math Coach",
+        "zh": "小学奥数师"
+      },
+      "avatar": "avatars/primary-math.png",
+      "role": "member"
+    },
+    {
+      "id": "junior-math",
+      "displayName": {
+        "en": "Cheng Zhong Dai",
+        "zh": "程中代"
+      },
+      "profession": {
+        "en": "Junior Algebraist",
+        "zh": "初中代数家"
+      },
+      "avatar": "avatars/junior-math.png",
+      "role": "member"
+    },
+    {
+      "id": "senior-math",
+      "displayName": {
+        "en": "Cheng Gao Han",
+        "zh": "程高函"
+      },
+      "profession": {
+        "en": "Senior Functionist",
+        "zh": "高中函数师"
+      },
+      "avatar": "avatars/senior-math.png",
+      "role": "member"
+    },
+    {
+      "id": "undergrad-math",
+      "displayName": {
+        "en": "Cheng Wei Ji",
+        "zh": "程微积"
+      },
+      "profession": {
+        "en": "Calculus Professor",
+        "zh": "大学微积分家"
+      },
+      "avatar": "avatars/undergrad-math.png",
+      "role": "member"
+    },
+    {
+      "id": "graduate-math",
+      "displayName": {
+        "en": "Cheng Yan Xi",
+        "zh": "程研析"
+      },
+      "profession": {
+        "en": "Advanced Analyst",
+        "zh": "高等分析师"
+      },
+      "avatar": "avatars/graduate-math.png",
+      "role": "member"
+    },
+    {
+      "id": "classical-math",
+      "displayName": {
+        "en": "Cheng Jiu Zhang",
+        "zh": "程九章"
+      },
+      "profession": {
+        "en": "Classical Math Scholar",
+        "zh": "古典数学师"
+      },
+      "avatar": "avatars/classical-math.png",
+      "role": "member"
+    },
+    {
+      "id": "international-math",
+      "displayName": {
+        "en": "Cheng Huan Qiu",
+        "zh": "程环球"
+      },
+      "profession": {
+        "en": "Global Math Educator",
+        "zh": "国际数学师"
+      },
+      "avatar": "avatars/international-math.png",
+      "role": "member"
+    }
+  ]
+}
