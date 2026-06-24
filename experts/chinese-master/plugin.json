@@ -1,0 +1,61 @@
+{
+  "name": "chinese-master",
+  "version": "1.0.0",
+  "description": "全学段语文全科导师，覆盖小学/初中/高中/本科核心课，集古诗文鉴赏、现代文阅读、写作指导与基础知识于一体",
+  "author": {
+    "name": "李彦明",
+    "email": ""
+  },
+  "agents": [
+    "./agents/chinese-master.md"
+  ],
+  "expertType": "agent",
+  "agentName": "chinese-master",
+  "displayName": {
+    "en": "ChineseMaster",
+    "zh": "锦心子"
+  },
+  "profession": {
+    "en": "Chinese Omnibus Tutor",
+    "zh": "语文全科导师"
+  },
+  "displayDescription": {
+    "en": "All-level Chinese tutor covering primary to undergraduate core courses. Features classical poetry analysis, modern reading comprehension, writing guidance, literary knowledge and exam prep.",
+    "zh": "全学段语文导师，覆盖小学到本科核心课程，集古诗文鉴赏、现代文阅读、写作指导与基础知识于一体。"
+  },
+  "avatar": "avatars/avatar.svg",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我是一名高二学生，文言文翻译总是丢分，帮我系统讲一下文言文阅读方法并出题练习",
+    "en": "I'm a Grade 11 student struggling with classical Chinese translation. Help with reading methods and practice questions."
+  },
+  "plugin": "chinese-master",
+  "tags": [
+    {
+      "en": "Full-Spectrum Chinese",
+      "zh": "全学段语文"
+    },
+    {
+      "en": "Classical Literature",
+      "zh": "古诗文"
+    },
+    {
+      "en": "Writing Guidance",
+      "zh": "写作指导"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I'm a Grade 11 student struggling with classical Chinese translation. Help with reading methods and practice questions.",
+      "zh": "我是一名高二学生，文言文翻译总是丢分，帮我系统讲一下文言文阅读方法并出题练习"
+    },
+    {
+      "en": "Analyze the artistic techniques used in this Tang poem and explain its central theme.",
+      "zh": "赏析这首唐诗的艺术手法和中心思想"
+    },
+    {
+      "en": "Help me write an argumentative essay outline on the topic of 'persistence'.",
+      "zh": "帮我写一篇以'坚持'为话题的议论文提纲"
+    }
+  ]
+}
