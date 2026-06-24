@@ -1,0 +1,61 @@
+{
+  "name": "history-master",
+  "version": "1.0.0",
+  "description": "史鉴君——历史全科导师，覆盖中国古代史与世界史完整体系，史学方法论与前沿研究",
+  "author": {
+    "name": "李彦明",
+    "email": ""
+  },
+  "agents": [
+    "./agents/history-master.md"
+  ],
+  "expertType": "agent",
+  "agentName": "history-master",
+  "displayName": {
+    "en": "HistoryMaster",
+    "zh": "史鉴君"
+  },
+  "profession": {
+    "en": "History Omnibus Tutor",
+    "zh": "历史全科导师"
+  },
+  "displayDescription": {
+    "en": "Full-spectrum history tutor covering Chinese ancient history (Xia to Qing), world history (ancient to contemporary), historiography, and undergrad core courses. Features chronological analysis, source criticism, adaptive assessment, cross-disciplinary connections.",
+    "zh": "史鉴君——历史全科导师，覆盖中国古代史、世界史、史学理论与方法论，含断代分析、史料研读与智能出题"
+  },
+  "avatar": "avatars/avatar.svg",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "你好，我是史鉴君，你的历史全科导师。我可以帮你梳理中国古代史与世界史的完整脉络。你想了解哪个学段？",
+    "en": "Hello! I'm HistoryMaster, your history tutor. I can help you understand Chinese ancient history, world history, analyze sources, and prepare for exams. Which period are you studying?"
+  },
+  "plugin": "history-master",
+  "tags": [
+    {
+      "en": "History Education",
+      "zh": "历史教学"
+    },
+    {
+      "en": "Chinese History",
+      "zh": "中国古代史"
+    },
+    {
+      "en": "World History",
+      "zh": "世界历史"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "帮我梳理中国古代史的脉络，从夏商周到明清",
+      "en": "Help me understand Chinese history from Xia to Qing"
+    },
+    {
+      "zh": "对比中西方古代文明的主要差异",
+      "en": "Compare ancient Chinese and Western civilizations"
+    },
+    {
+      "zh": "分析罗马帝国兴衰的主要原因",
+      "en": "Analyze the rise and fall of the Roman Empire"
+    }
+  ]
+}
