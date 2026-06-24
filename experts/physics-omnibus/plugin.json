@@ -1,0 +1,141 @@
+{
+  "name": "physics-omnibus",
+  "version": "1.0.0",
+  "description": "A comprehensive physics expert team covering all-level physics knowledge, history of physics, and experiment design",
+  "author": {
+    "name": "李彦明",
+    "email": ""
+  },
+  "agents": [
+    "./agents/physics-omnibus-team-lead.md",
+    "./agents/physics-theorist.md",
+    "./agents/physics-experimenter.md",
+    "./agents/physics-historian.md",
+    "./agents/physics-problem-solver.md"
+  ],
+  "expertType": "team",
+  "agentName": "physics-omnibus-team-lead",
+  "teamInfo": {
+    "leadAgent": "physics-omnibus-team-lead",
+    "memberAgents": [
+      "physics-theorist",
+      "physics-experimenter",
+      "physics-historian",
+      "physics-problem-solver"
+    ]
+  },
+  "displayName": {
+    "en": "Physics Omnibus Consortium",
+    "zh": "物理全能智囊团"
+  },
+  "profession": {
+    "en": "Physics Omnibus Consortium",
+    "zh": "物理全能智囊团"
+  },
+  "displayDescription": {
+    "en": "Physics K-12 to PhD with simulation engine: experiment videos & interactive demos (Manim/Canvas/Three.js), all theory branches, UFT, Tesla",
+    "zh": "全学段+硕博物理，仿真引擎产出实验动画视频与交互模拟。含分步解题协议、跨学科连接、自适应出题与2026物理教学前沿"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "你好，我是物理全能智囊团主理人理贯通，随时为你解答从小学到大学的所有物理问题！可以帮你讲解理论、设计实验、梳理物理学史，或者攻克难题。请问你想了解什么？",
+    "en": "Hello! I'm Li Guantong, lead of the Physics Omnibus Consortium. I can help with any physics topic from K-12 to university, design experiments, explore the history of physics, or solve challenging problems. What would you like to explore?"
+  },
+  "plugin": "physics-omnibus",
+  "tags": [
+    {
+      "en": "Physics Education",
+      "zh": "物理教学"
+    },
+    {
+      "en": "Physics Experiments",
+      "zh": "物理实验"
+    },
+    {
+      "en": "Physics History",
+      "zh": "物理学史"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "你好，我是物理全能智囊团主理人理贯通，随时为你解答从小学到大学的所有物理问题！可以帮你讲解理论、设计实验、梳理物理学史，或者攻克难题。请问你想了解什么？",
+      "en": "Hello! I'm Li Guantong, lead of the Physics Omnibus Consortium. I can help with any physics topic from K-12 to university, design experiments, explore the history of physics, or solve challenging problems. What would you like to explore?"
+    },
+    {
+      "zh": "给我设计一个高中物理的光学干涉实验，要有详细的步骤和原理分析",
+      "en": "Design a high school physics optical interference experiment with detailed steps and principle analysis"
+    },
+    {
+      "zh": "梳理从亚里士多德到杨振宁的物理学发展脉络，列出每个时代的关键人物和突破",
+      "en": "Trace the development of physics from Aristotle to Yang Chen-Ning, listing key figures and breakthroughs of each era"
+    }
+  ],
+  "members": [
+    {
+      "id": "physics-omnibus-team-lead",
+      "displayName": {
+        "en": "Li Guantong",
+        "zh": "理贯通"
+      },
+      "profession": {
+        "en": "Knowledge Curator",
+        "zh": "知识策展人"
+      },
+      "avatar": "avatars/physics-omnibus-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "physics-theorist",
+      "displayName": {
+        "en": "Li Wanli",
+        "zh": "理万理"
+      },
+      "profession": {
+        "en": "Theoretical Physics Mentor",
+        "zh": "理论物理导师"
+      },
+      "avatar": "avatars/physics-theorist.png",
+      "role": "member"
+    },
+    {
+      "id": "physics-experimenter",
+      "displayName": {
+        "en": "Fan Zhenzhi",
+        "zh": "范真知"
+      },
+      "profession": {
+        "en": "Experimental Physics Mentor",
+        "zh": "实验物理导师"
+      },
+      "avatar": "avatars/physics-experimenter.png",
+      "role": "member"
+    },
+    {
+      "id": "physics-historian",
+      "displayName": {
+        "en": "Shi Mingzhi",
+        "zh": "史明智"
+      },
+      "profession": {
+        "en": "Physics History Mentor",
+        "zh": "物理学史导师"
+      },
+      "avatar": "avatars/physics-historian.png",
+      "role": "member"
+    },
+    {
+      "id": "physics-problem-solver",
+      "displayName": {
+        "en": "Ke Shanjie",
+        "zh": "柯善解"
+      },
+      "profession": {
+        "en": "Physics Problem-Solving Mentor",
+        "zh": "物理习题导师"
+      },
+      "avatar": "avatars/physics-problem-solver.png",
+      "role": "member"
+    }
+  ]
+}
