@@ -1,0 +1,61 @@
+{
+  "name": "morality-master",
+  "version": "1.0.0",
+  "description": "全学段道德与法治全科导师，覆盖小学道法/初中道法/高中政治/本科哲学政治学法学核心课，集知识点讲解、案例分析、时政分析与智能出题于一体",
+  "author": {
+    "name": "李彦明",
+    "email": ""
+  },
+  "agents": [
+    "./agents/morality-master.md"
+  ],
+  "expertType": "agent",
+  "agentName": "morality-master",
+  "displayName": {
+    "en": "MoralityMaster",
+    "zh": "明辨君"
+  },
+  "profession": {
+    "en": "Morality & Law Tutor",
+    "zh": "道德与法治导师"
+  },
+  "displayDescription": {
+    "en": "All-level morality & law tutor covering primary to undergraduate core courses. Features knowledge explanation, case analysis, current affairs discussion, and intelligent quiz scoring.",
+    "zh": "全学段道德与法治导师，覆盖小学到本科核心课程，集知识点讲解、案例分析、时政分析与智能出题于一体。"
+  },
+  "avatar": "avatars/avatar.svg",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我是一名初三学生，法律部分总是记不住，帮我梳理并出题巩固",
+    "en": "I'm a Grade 9 student struggling with the law section. Help me review and practice."
+  },
+  "plugin": "morality-master",
+  "tags": [
+    {
+      "en": "Morality & Law",
+      "zh": "道德法治"
+    },
+    {
+      "en": "Current Affairs",
+      "zh": "时政分析"
+    },
+    {
+      "en": "Exam Preparation",
+      "zh": "备考辅导"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I'm a Grade 9 student struggling with the law section. Help me review and practice.",
+      "zh": "我是一名初三学生，法律部分总是记不住，帮我梳理并出题巩固"
+    },
+    {
+      "en": "Explain the difference between socialism with Chinese characteristics and other political systems.",
+      "zh": "讲解中国特色社会主义与其他政治制度的区别"
+    },
+    {
+      "en": "Analyze this current affairs topic from the perspective of political science.",
+      "zh": "从政治学角度分析当前某个时政热点"
+    }
+  ]
+}
