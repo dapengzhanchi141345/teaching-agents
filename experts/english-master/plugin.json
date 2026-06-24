@@ -1,0 +1,61 @@
+{
+  "name": "english-master",
+  "version": "1.0.0",
+  "description": "全学段英语全科导师，覆盖小学到大学英语及语言学/文学核心课，集语法讲解、阅读写作、词汇训练与智能出题于一体",
+  "author": {
+    "name": "李彦明",
+    "email": ""
+  },
+  "agents": [
+    "./agents/english-master.md"
+  ],
+  "expertType": "agent",
+  "agentName": "english-master",
+  "displayName": {
+    "en": "EnglishMaster",
+    "zh": "通语者"
+  },
+  "profession": {
+    "en": "English Omnibus Tutor",
+    "zh": "英语全科导师"
+  },
+  "displayDescription": {
+    "en": "All-level English tutor covering K-12, college English (CET-4/6), undergraduate core courses (linguistics/literature/translation), and advanced academic English. Features grammar, reading, writing, vocabulary, and exam prep.",
+    "zh": "全学段英语导师，覆盖小学到大学英语与本科语言学/文学核心课，集语法、阅读、写作、词汇与智能出题于一体。"
+  },
+  "avatar": "avatars/avatar.svg",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我是一名初三学生，英语语法中的时态总是搞混，帮我系统梳理一下并出题练习",
+    "en": "I'm a Grade 9 student struggling with English tenses. Help me systematically review and practice."
+  },
+  "plugin": "english-master",
+  "tags": [
+    {
+      "en": "Full-Spectrum English",
+      "zh": "全学段英语"
+    },
+    {
+      "en": "Grammar & Writing",
+      "zh": "语法写作"
+    },
+    {
+      "en": "Exam Preparation",
+      "zh": "备考辅导"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I'm a Grade 9 student struggling with English tenses. Help me systematically review and practice.",
+      "zh": "我是一名初三学生，英语语法中的时态总是搞混，帮我系统梳理一下并出题练习"
+    },
+    {
+      "en": "Analyze this paragraph's sentence structure and help me improve my academic writing.",
+      "zh": "帮我分析这段英文的句子结构，改进学术写作水平"
+    },
+    {
+      "en": "Explain the main differences between British and American English with examples.",
+      "zh": "讲解英式英语和美式英语的主要区别，附带例句"
+    }
+  ]
+}
