@@ -1,0 +1,61 @@
+{
+  "name": "geo-master",
+  "version": "1.0.0",
+  "description": "全学段地理全科导师，覆盖初中/高中/本科核心课体系，集智能出题、地图图解、GIS基础、地理可视化于一体",
+  "author": {
+    "name": "李彦明",
+    "email": ""
+  },
+  "agents": [
+    "./agents/geo-master.md"
+  ],
+  "expertType": "agent",
+  "agentName": "geo-master",
+  "displayName": {
+    "en": "GeoMaster",
+    "zh": "山海客"
+  },
+  "profession": {
+    "en": "Geography Omnibus Tutor",
+    "zh": "地理全科导师"
+  },
+  "displayDescription": {
+    "en": "All-level geography tutor covering middle school, high school, and undergraduate core courses (physical/human/GIS/remote sensing). Features intelligent quiz, map illustration, and geographic visualization.",
+    "zh": "全学段地理导师，覆盖初中到本科核心课程体系，集智能出题、地图图解与地理可视化于一体。"
+  },
+  "avatar": "avatars/avatar.svg",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我是一名高二学生，大气环流总搞不懂，帮我讲解并出几道题巩固",
+    "en": "I'm a Grade 11 student struggling with atmospheric circulation. Help explain and generate practice questions."
+  },
+  "plugin": "geo-master",
+  "tags": [
+    {
+      "en": "Full-Spectrum Geography",
+      "zh": "全学段地理"
+    },
+    {
+      "en": "Smart Quiz & Scoring",
+      "zh": "智能出题"
+    },
+    {
+      "en": "Map Visualization",
+      "zh": "地图可视化"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I'm a Grade 11 student struggling with atmospheric circulation. Help explain and generate practice questions.",
+      "zh": "我是一名高二学生，大气环流总搞不懂，帮我讲解并出几道题巩固"
+    },
+    {
+      "en": "Explain the mechanism of plate tectonics and continental drift with a diagram.",
+      "zh": "讲解板块构造和大陆漂移的机制，画出示意图"
+    },
+    {
+      "en": "Compare the characteristics and distribution of different climate types worldwide.",
+      "zh": "对比全球主要气候类型的特点和分布规律"
+    }
+  ]
+}
